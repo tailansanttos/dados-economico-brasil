@@ -10,6 +10,7 @@
 - Qual o impacto de crises econômicas (2015, 2020) nos indicadores combinados?
 
 # Arquitetura
+
 BCB API + IBGE API + SIDRA API
           ↓
      Python + requests
@@ -21,3 +22,8 @@ BCB API + IBGE API + SIDRA API
      PostgreSQL local (DW)
           ↓
      Power BI ou Streamlit
+
+# Fonte dos dados
+1. BCB (Banco Central do Brasil) -
+2. IBGE (Instituto Brasileiro de Geografia e Estatística)
+3. SIDRA (Sistema IBGE de Recuperação Automática) - Plataforma que disponibiliza dados estatísticos detalhados das pesquisas do IBGE.
