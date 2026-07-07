@@ -8,3 +8,16 @@
 - Como o dólar se comportou nos períodos de maior desemprego?
 - A inflação afeta mais estados com renda baixa ou alta?
 - Qual o impacto de crises econômicas (2015, 2020) nos indicadores combinados?
+
+# Arquitetura
+BCB API + IBGE API + SIDRA API
+          ↓
+     Python + requests
+          ↓
+     AWS S3 (Parquet) ← dados brutos
+          ↓
+     dbt Core (transformações)
+          ↓
+     PostgreSQL local (DW)
+          ↓
+     Power BI ou Streamlit
