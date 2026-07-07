@@ -1,0 +1,4 @@
+2026-07-07 18:47:34,374 - INFO - Tentativa 1/3 - acessando a url https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json&dataInicial=01/01/2023&dataFinal=31/12/2023
+2026-07-07 18:47:35,590 - INFO - Extração concluida!
+2026-07-07 18:48:04,301 - INFO - Tentativa 1/3 - acessando a url https://api.bcb.gov.br/dados/serie/bcdata.sgs.11/dados?formato=json&dataInicial=01/01/2023&dataFinal=07/07/2026
+2026-07-07 18:48:08,262 - INFO - Extração concluida!
